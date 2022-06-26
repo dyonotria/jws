@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+jws_TestSuite,Chrome 102.0.5005.115,,,2022-06-26 15:04:32,2022-06-26 15:07:35,3m - 3.162s,PASSED
+,,,,,,,
+Test Cases/Register And Login,Chrome 102.0.5005.115,,,2022-06-26 15:04:32,2022-06-26 15:07:35,3m - 2.981s,PASSED
+"openBrowser(""automationpractice.com"")",Chrome 102.0.5005.115,,,2022-06-26 15:04:32,2022-06-26 15:05:05,33.006s,PASSED
+maximizeWindow(),Chrome 102.0.5005.115,,,2022-06-26 15:05:05,2022-06-26 15:05:06,0.156s,PASSED
+register(),Chrome 102.0.5005.115,,,2022-06-26 15:05:06,2022-06-26 15:05:06,0.001s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/jws/Page_My Store/Home_Sign_In_Button""), 5)",Chrome 102.0.5005.115,,,2022-06-26 15:05:06,2022-06-26 15:05:06,0.494s,PASSED
+"click(findTestObject(""Object Repository/jws/Page_My Store/Home_Sign_In_Button""))",Chrome 102.0.5005.115,,,2022-06-26 15:05:06,2022-06-26 15:05:21,14.664s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/jws/Page_Login - My Store/LoginPage_CreateAnAccount_Button""), 5)",Chrome 102.0.5005.115,,,2022-06-26 15:05:21,2022-06-26 15:05:21,0.414s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/LoginPage_NewEmail_TextField""), randomEmail)",Chrome 102.0.5005.115,,,2022-06-26 15:05:21,2022-06-26 15:05:22,0.375s,PASSED
+"click(findTestObject(""Object Repository/jws/Page_Login - My Store/LoginPage_CreateAnAccount_Button""))",Chrome 102.0.5005.115,,,2022-06-26 15:05:22,2022-06-26 15:05:22,0.343s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_Gender""), 5)",Chrome 102.0.5005.115,,,2022-06-26 15:05:22,2022-06-26 15:05:25,3.148s,PASSED
+"click(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_Gender""))",Chrome 102.0.5005.115,,,2022-06-26 15:05:25,2022-06-26 15:05:26,0.666s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_FirstName""), randomKeyword.random.randomAlphabet(4))",Chrome 102.0.5005.115,,,2022-06-26 15:05:26,2022-06-26 15:05:26,0.574s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_LastName""), randomKeyword.random.randomAlphabet(4))",Chrome 102.0.5005.115,,,2022-06-26 15:05:26,2022-06-26 15:05:27,0.367s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_Password""), randomPassword)",Chrome 102.0.5005.115,,,2022-06-26 15:05:27,2022-06-26 15:05:27,0.362s,PASSED
+optionListLength = 10,Chrome 102.0.5005.115,,,2022-06-26 15:05:27,2022-06-26 15:05:27,0.001s,PASSED
+rand = new java.util.Random(),Chrome 102.0.5005.115,,,2022-06-26 15:05:27,2022-06-26 15:05:27,0.004s,PASSED
+index = rand.nextInt(optionListLength + 1),Chrome 102.0.5005.115,,,2022-06-26 15:05:27,2022-06-26 15:05:27,0.002s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_Day_DropDown""), index)",Chrome 102.0.5005.115,,,2022-06-26 15:05:27,2022-06-26 15:05:28,1.024s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_Month_DropDown""), index)",Chrome 102.0.5005.115,,,2022-06-26 15:05:28,2022-06-26 15:05:29,1.205s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_Year_DropDown""), index)",Chrome 102.0.5005.115,,,2022-06-26 15:05:29,2022-06-26 15:05:30,1.202s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_Address_Input""), randomKeyword.random.randomSentence(5))",Chrome 102.0.5005.115,,,2022-06-26 15:05:30,2022-06-26 15:05:31,0.486s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_City""), randomKeyword.random.randomAlphabet(5))",Chrome 102.0.5005.115,,,2022-06-26 15:05:31,2022-06-26 15:05:31,0.354s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_State_DropDown""), index)",Chrome 102.0.5005.115,,,2022-06-26 15:05:31,2022-06-26 15:05:32,0.995s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_PostalCode""), randomKeyword.random.randomNumber(5))",Chrome 102.0.5005.115,,,2022-06-26 15:05:32,2022-06-26 15:05:33,0.563s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_PhoneNumber""), ""6281"" + randomKeyword.random.randomNumber(8))",Chrome 102.0.5005.115,,,2022-06-26 15:05:33,2022-06-26 15:05:33,0.365s,PASSED
+takeScreenshot(),Chrome 102.0.5005.115,,,2022-06-26 15:05:33,2022-06-26 15:05:34,0.383s,PASSED
+"click(findTestObject(""Object Repository/jws/Page_Login - My Store/RegisterData_Register_Button""))",Chrome 102.0.5005.115,,,2022-06-26 15:05:34,2022-06-26 15:05:37,3.343s,PASSED
+delay(2),Chrome 102.0.5005.115,,,2022-06-26 15:05:37,2022-06-26 15:05:39,2.030s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button""), 5)",Chrome 102.0.5005.115,,,2022-06-26 15:05:39,2022-06-26 15:05:39,0.304s,PASSED
+takeScreenshot(),Chrome 102.0.5005.115,,,2022-06-26 15:05:39,2022-06-26 15:05:40,0.370s,PASSED
+login(),Chrome 102.0.5005.115,,,2022-06-26 15:05:40,2022-06-26 15:05:40,0.000s,PASSED
+"click(findTestObject(""Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button""))",Chrome 102.0.5005.115,,,2022-06-26 15:05:40,2022-06-26 15:05:44,4.244s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/jws/Page_Login - My Store/SignIn_Button""), 5)",Chrome 102.0.5005.115,,,2022-06-26 15:05:44,2022-06-26 15:05:44,0.516s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/SignIn_Email_Field""), randomEmail)",Chrome 102.0.5005.115,,,2022-06-26 15:05:44,2022-06-26 15:05:45,0.347s,PASSED
+"sendKeys(findTestObject(""Object Repository/jws/Page_Login - My Store/SignIn_Password_Field""), randomPassword)",Chrome 102.0.5005.115,,,2022-06-26 15:05:45,2022-06-26 15:05:45,0.353s,PASSED
+"click(findTestObject(""Object Repository/jws/Page_Login - My Store/SignIn_Button""))",Chrome 102.0.5005.115,,,2022-06-26 15:05:45,2022-06-26 15:07:32,1m - 46.392s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button""), 5)",Chrome 102.0.5005.115,,,2022-06-26 15:07:32,2022-06-26 15:07:34,2.264s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/jws/Page_My account - My Store/Profile_WishList""), 0)",Chrome 102.0.5005.115,,,2022-06-26 15:07:34,2022-06-26 15:07:34,0.314s,PASSED
+takeScreenshot(),Chrome 102.0.5005.115,,,2022-06-26 15:07:34,2022-06-26 15:07:34,0.398s,PASSED
+closeBrowser(),Chrome 102.0.5005.115,,,2022-06-26 15:07:34,2022-06-26 15:07:35,0.662s,PASSED

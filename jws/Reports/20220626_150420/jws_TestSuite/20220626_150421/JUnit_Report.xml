@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jws_TestSuite" time="183.162" tests="1" failures="0" errors="0">
+   <testsuite name="jws_TestSuite" tests="1" failures="0" errors="0" time="183.162" skipped="0" timestamp="2022-06-26 15:04:32" hostname="dyono - MSI" id="Test Suites/jws_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon Studio\\jws\\Reports\\20220626_150420\\jws_TestSuite\\20220626_150421"/>
+         <property name="logFiles" value="E:\\Katalon Studio\\jws\\Reports\\20220626_150420\\jws_TestSuite\\20220626_150421\\execution0.log"/>
+         <property name="attachments" value="E:\\Katalon Studio\\jws\\Reports\\20220626_150420\\jws_TestSuite\\20220626_150421\\1656230734015.png, E:\\Katalon Studio\\jws\\Reports\\20220626_150420\\jws_TestSuite\\20220626_150421\\1656230740038.png, E:\\Katalon Studio\\jws\\Reports\\20220626_150420\\jws_TestSuite\\20220626_150421\\1656230854842.png"/>
+         <property name="hostName" value="dyono - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.18.18"/>
+         <property name="sessionId" value="4bde8d7ce076b920f4f195a2a0e25680"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;127.0.0.1&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register And Login" time="182.981" classname="Test Cases/Register And Login" status="PASSED">
+         <system-out><![CDATA[2022-06-26 15:04:32 - [TEST_CASE][PASSED] - Test Cases/Register And Login: Test Cases/Register And Login
+
+2022-06-26 15:04:32 - [TEST_STEP][PASSED] - openBrowser("automationpractice.com"): Browser is opened with url: 'automationpractice.com'
+
+2022-06-26 15:04:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-26 15:04:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-26 15:05:05 - [MESSAGE][PASSED] - Browser is opened with url: 'automationpractice.com'
+
+2022-06-26 15:05:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-26 15:05:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-26 15:05:06 - [TEST_STEP][PASSED] - register(): null
+
+2022-06-26 15:05:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/jws/Page_My Store/Home_Sign_In_Button"), 5): Object 'Object Repository/jws/Page_My Store/Home_Sign_In_Button' is present
+
+2022-06-26 15:05:06 - [MESSAGE][PASSED] - Object 'Object Repository/jws/Page_My Store/Home_Sign_In_Button' is present
+
+2022-06-26 15:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jws/Page_My Store/Home_Sign_In_Button")): Object: 'Object Repository/jws/Page_My Store/Home_Sign_In_Button' is clicked on
+
+2022-06-26 15:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/jws/Page_My Store/Home_Sign_In_Button' is clicked on
+
+2022-06-26 15:05:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/jws/Page_Login - My Store/LoginPage_CreateAnAccount_Button"), 5): Object 'Object Repository/jws/Page_Login - My Store/LoginPage_CreateAnAccount_Button' is present
+
+2022-06-26 15:05:21 - [MESSAGE][PASSED] - Object 'Object Repository/jws/Page_Login - My Store/LoginPage_CreateAnAccount_Button' is present
+
+2022-06-26 15:05:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/LoginPage_NewEmail_TextField"), randomEmail): Keys 'vvwlp.85445@nwmpx.com' sent to object: 'Object Repository/jws/Page_Login - My Store/LoginPage_NewEmail_TextField'
+
+2022-06-26 15:05:21 - [MESSAGE][PASSED] - randomKeyword.random.randomAlphabet is PASSED
+
+2022-06-26 15:05:21 - [MESSAGE][PASSED] - randomKeyword.random.randomNumber is PASSED
+
+2022-06-26 15:05:21 - [MESSAGE][PASSED] - randomKeyword.random.randomAlphabet is PASSED
+
+2022-06-26 15:05:21 - [MESSAGE][PASSED] - randomKeyword.random.randomNumber is PASSED
+
+2022-06-26 15:05:22 - [MESSAGE][PASSED] - Keys 'vvwlp.85445@nwmpx.com' sent to object: 'Object Repository/jws/Page_Login - My Store/LoginPage_NewEmail_TextField'
+
+2022-06-26 15:05:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jws/Page_Login - My Store/LoginPage_CreateAnAccount_Button")): Object: 'Object Repository/jws/Page_Login - My Store/LoginPage_CreateAnAccount_Button' is clicked on
+
+2022-06-26 15:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/jws/Page_Login - My Store/LoginPage_CreateAnAccount_Button' is clicked on
+
+2022-06-26 15:05:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_Gender"), 5): Object 'Object Repository/jws/Page_Login - My Store/RegisterData_Gender' is present
+
+2022-06-26 15:05:25 - [MESSAGE][PASSED] - Object 'Object Repository/jws/Page_Login - My Store/RegisterData_Gender' is present
+
+2022-06-26 15:05:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_Gender")): Object: 'Object Repository/jws/Page_Login - My Store/RegisterData_Gender' is clicked on
+
+2022-06-26 15:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/jws/Page_Login - My Store/RegisterData_Gender' is clicked on
+
+2022-06-26 15:05:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_FirstName"), randomKeyword.random.randomAlphabet(4)): Keys 'ykcj' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_FirstName'
+
+2022-06-26 15:05:26 - [MESSAGE][PASSED] - randomKeyword.random.randomAlphabet is PASSED
+
+2022-06-26 15:05:26 - [MESSAGE][PASSED] - Keys 'ykcj' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_FirstName'
+
+2022-06-26 15:05:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_LastName"), randomKeyword.random.randomAlphabet(4)): Keys 'balp' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_LastName'
+
+2022-06-26 15:05:26 - [MESSAGE][PASSED] - randomKeyword.random.randomAlphabet is PASSED
+
+2022-06-26 15:05:27 - [MESSAGE][PASSED] - Keys 'balp' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_LastName'
+
+2022-06-26 15:05:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_Password"), randomPassword): Keys '54116' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_Password'
+
+2022-06-26 15:05:27 - [MESSAGE][PASSED] - Keys '54116' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_Password'
+
+2022-06-26 15:05:27 - [TEST_STEP][PASSED] - optionListLength = 10: null
+
+2022-06-26 15:05:27 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2022-06-26 15:05:27 - [TEST_STEP][PASSED] - index = rand.nextInt(optionListLength + 1): null
+
+2022-06-26 15:05:27 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_Day_DropDown"), index): All options with index in [7] are selected on object 'Object Repository/jws/Page_Login - My Store/RegisterData_Day_DropDown'
+
+2022-06-26 15:05:28 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/jws/Page_Login - My Store/RegisterData_Day_DropDown'
+
+2022-06-26 15:05:28 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_Month_DropDown"), index): All options with index in [7] are selected on object 'Object Repository/jws/Page_Login - My Store/RegisterData_Month_DropDown'
+
+2022-06-26 15:05:29 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/jws/Page_Login - My Store/RegisterData_Month_DropDown'
+
+2022-06-26 15:05:29 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_Year_DropDown"), index): All options with index in [7] are selected on object 'Object Repository/jws/Page_Login - My Store/RegisterData_Year_DropDown'
+
+2022-06-26 15:05:30 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/jws/Page_Login - My Store/RegisterData_Year_DropDown'
+
+2022-06-26 15:05:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_Address_Input"), randomKeyword.random.randomSentence(5)): Keys 'nxbv btkf btbc bdgg twkn ' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_Address_Input'
+
+2022-06-26 15:05:31 - [MESSAGE][PASSED] - randomKeyword.random.randomSentence is PASSED
+
+2022-06-26 15:05:31 - [MESSAGE][PASSED] - Keys 'nxbv btkf btbc bdgg twkn ' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_Address_Input'
+
+2022-06-26 15:05:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_City"), randomKeyword.random.randomAlphabet(5)): Keys 'bdrfp' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_City'
+
+2022-06-26 15:05:31 - [MESSAGE][PASSED] - randomKeyword.random.randomAlphabet is PASSED
+
+2022-06-26 15:05:31 - [MESSAGE][PASSED] - Keys 'bdrfp' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_City'
+
+2022-06-26 15:05:31 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_State_DropDown"), index): All options with index in [7] are selected on object 'Object Repository/jws/Page_Login - My Store/RegisterData_State_DropDown'
+
+2022-06-26 15:05:32 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/jws/Page_Login - My Store/RegisterData_State_DropDown'
+
+2022-06-26 15:05:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_PostalCode"), randomKeyword.random.randomNumber(5)): Keys '65911' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_PostalCode'
+
+2022-06-26 15:05:32 - [MESSAGE][PASSED] - randomKeyword.random.randomNumber is PASSED
+
+2022-06-26 15:05:33 - [MESSAGE][PASSED] - Keys '65911' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_PostalCode'
+
+2022-06-26 15:05:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_PhoneNumber"), "6281" + randomKeyword.random.randomNumber(8)): Keys '628124076280' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_PhoneNumber'
+
+2022-06-26 15:05:33 - [MESSAGE][PASSED] - randomKeyword.random.randomNumber is PASSED
+
+2022-06-26 15:05:33 - [MESSAGE][PASSED] - Keys '628124076280' sent to object: 'Object Repository/jws/Page_Login - My Store/RegisterData_PhoneNumber'
+
+2022-06-26 15:05:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-26 15:05:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon Studio\\jws\\Reports\\20220626_150420\\jws_TestSuite\\20220626_150421\\1656230734015.png]]
+
+2022-06-26 15:05:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jws/Page_Login - My Store/RegisterData_Register_Button")): Object: 'Object Repository/jws/Page_Login - My Store/RegisterData_Register_Button' is clicked on
+
+2022-06-26 15:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/jws/Page_Login - My Store/RegisterData_Register_Button' is clicked on
+
+2022-06-26 15:05:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-26 15:05:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-26 15:05:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button"), 5): Object 'Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button' is present
+
+2022-06-26 15:05:39 - [MESSAGE][PASSED] - Object 'Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button' is present
+
+2022-06-26 15:05:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-26 15:05:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon Studio\\jws\\Reports\\20220626_150420\\jws_TestSuite\\20220626_150421\\1656230740038.png]]
+
+2022-06-26 15:05:40 - [TEST_STEP][PASSED] - login(): null
+
+2022-06-26 15:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button")): Object: 'Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button' is clicked on
+
+2022-06-26 15:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button' is clicked on
+
+2022-06-26 15:05:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/jws/Page_Login - My Store/SignIn_Button"), 5): Object 'Object Repository/jws/Page_Login - My Store/SignIn_Button' is present
+
+2022-06-26 15:05:44 - [MESSAGE][PASSED] - Object 'Object Repository/jws/Page_Login - My Store/SignIn_Button' is present
+
+2022-06-26 15:05:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/SignIn_Email_Field"), randomEmail): Keys 'vvwlp.85445@nwmpx.com' sent to object: 'Object Repository/jws/Page_Login - My Store/SignIn_Email_Field'
+
+2022-06-26 15:05:45 - [MESSAGE][PASSED] - Keys 'vvwlp.85445@nwmpx.com' sent to object: 'Object Repository/jws/Page_Login - My Store/SignIn_Email_Field'
+
+2022-06-26 15:05:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/jws/Page_Login - My Store/SignIn_Password_Field"), randomPassword): Keys '54116' sent to object: 'Object Repository/jws/Page_Login - My Store/SignIn_Password_Field'
+
+2022-06-26 15:05:45 - [MESSAGE][PASSED] - Keys '54116' sent to object: 'Object Repository/jws/Page_Login - My Store/SignIn_Password_Field'
+
+2022-06-26 15:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jws/Page_Login - My Store/SignIn_Button")): Object: 'Object Repository/jws/Page_Login - My Store/SignIn_Button' is clicked on
+
+2022-06-26 15:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/jws/Page_Login - My Store/SignIn_Button' is clicked on
+
+2022-06-26 15:07:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button"), 5): Object 'Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button' is present
+
+2022-06-26 15:07:34 - [MESSAGE][PASSED] - Object 'Object Repository/jws/Page_My account - My Store/Profile_SignOut_Button' is present
+
+2022-06-26 15:07:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/jws/Page_My account - My Store/Profile_WishList"), 0): Object 'Object Repository/jws/Page_My account - My Store/Profile_WishList' is present
+
+2022-06-26 15:07:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-26 15:07:34 - [MESSAGE][PASSED] - Object 'Object Repository/jws/Page_My account - My Store/Profile_WishList' is present
+
+2022-06-26 15:07:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-26 15:07:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon Studio\\jws\\Reports\\20220626_150420\\jws_TestSuite\\20220626_150421\\1656230854842.png]]
+
+2022-06-26 15:07:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-26 15:07:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-26 15:04:32 - [TEST_SUITE][PASSED] - jws_TestSuite: Test Cases/Register And Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
